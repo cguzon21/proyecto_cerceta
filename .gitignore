@@ -46,4 +46,6 @@ docs/
 po/*~
 
 # RStudio Connect folder
-rsconnect/data/2005_2026_series/
+rsconnect/
+data/2005_2026_series
+data/old
