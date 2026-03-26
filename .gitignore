@@ -35,8 +35,10 @@
 # R Environment Variables
 .Renviron
 
-
 # RStudio Connect folder
 rsconnect/
 data/2005_2026_series
 data/old
+outputs/old
+scripts/old
+outputs/species_abundance_yearly.csv
