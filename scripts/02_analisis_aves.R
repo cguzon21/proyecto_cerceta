@@ -73,10 +73,10 @@ grafico_tendencia <- ggplot() +
   scale_x_continuous(breaks = seq(2005, 2025, 5)) +
   theme_minimal() +
   theme(legend.position = "none", strip.text = element_text(face = "bold")) +
-  labs(title = "Tendencia de Aves Acuáticas por Gremio Funcional (2005-2025)",
-       subtitle = "Puntos: especies individuales estandarizadas | Línea: tendencia del gremio (GAM)",
-       x = "Año Hidrológico", 
-       y = "Abundancia Máxima Estandarizada (0-1)")
+  labs(title = "Evolución Temporal de la Abundancia de Aves Acuáticas Invernantes por Gremio Funcional (2005-2025)",
+       subtitle = "Puntos (Abundancia máxima de especies individuales), Línea sólida (Tendencia suavizada del gremio funcional - mediana), Sombreado gris (Intervalo de confianza del 95%)",
+       x = "Año", 
+       y = "Abundancia Máxima Estandarizada")
 
 print(grafico_tendencia)
 
