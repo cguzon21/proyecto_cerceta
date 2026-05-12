@@ -63,6 +63,10 @@ analisis_mk <- tendencia_grupos |>
     p_valor < 0.05 & tau < 0 ~ "Descenso significativo",
     TRUE ~ "Sin tendencia clara"
   ))
+
+# Exportar los resultados del Mann-Kendall:
+write_csv(analisis_mk, "outputs/tabla_mann_kendall_aves.csv")
+
 # Dar formato al p-value y tau de cada grupo funcional como una etiqueta que añadir
 # al gráfico
 analisis_mk <- analisis_mk |>

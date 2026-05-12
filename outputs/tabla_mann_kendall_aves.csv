@@ -1,0 +1,7 @@
+fun_group,tau,p_valor,estado_tendencia
+duck_dabb,-0.39047619700431824,0.01445,Descenso significativo
+duck_dive,0.02386641688644886,0.90382,Sin tendencia clara
+grazer,-0.4000000059604645,0.0122,Descenso significativo
+wader_deep,0.1435423195362091,0.38075,Sin tendencia clara
+wader_mid,-0.6348466873168945,7e-5,Descenso significativo
+wader_shall,-0.27619048953056335,0.08521,Sin tendencia clara
